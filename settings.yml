@@ -13,3 +13,20 @@ server:
   bind_address: "0.0.0.0"
   limiter: false
   public_instance: false
+
+engines:
+  - name: wikipedia
+    engine: wikipedia
+    shortcut: wp
+
+  - name: wikidata
+    engine: wikidata
+    shortcut: wd
+
+  - name: startpage
+    engine: startpage
+    shortcut: sp
+
+  - name: yahoo
+    engine: yahoo
+    shortcut: yh
