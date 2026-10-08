@@ -15,11 +15,14 @@ server:
   public_instance: false
 
 engines:
-  - name: brave
+  - name: yahoo
     disabled: false
 
+  - name: brave
+    disabled: true
+
   - name: duckduckgo
-    disabled: false
+    disabled: true
 
   - name: google cse
     disabled: true
