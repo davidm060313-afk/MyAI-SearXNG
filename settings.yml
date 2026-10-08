@@ -16,13 +16,16 @@ server:
 
 engines:
   - name: brave
-    disabled: true
+    disabled: false
 
   - name: duckduckgo
-    disabled: true
+    disabled: false
 
   - name: google cse
     disabled: true
 
   - name: bing
+    disabled: true
+
+  - name: wikipedia
     disabled: false
